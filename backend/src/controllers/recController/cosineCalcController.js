@@ -5,7 +5,7 @@ const { TfIdf } = natural;
 // Create a TfIdf instance
 const tfidf = new TfIdf();
 async function connectToMongoDB() {
-    const uri = 'mongodb+srv://HarborReads:MongoDB%40HR12@cluster0.nhckanx.mongodb.net/harborreads?retryWrites=true&w=majority'; // Your MongoDB connection URI
+    const uri = 'example'; 
     const client = new MongoClient(uri);
   
     try {

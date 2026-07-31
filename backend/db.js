@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const uri = 'mongodb+srv://HarborReads:MongoDB%40HR12@cluster0.nhckanx.mongodb.net/harborreads?retryWrites=true&w=majority';
+const uri = 'example';
 
 mongoose.connect(uri)
   .then(() => console.log('Connected to MongoDB'))
@@ -11,7 +11,7 @@ mongoose.connect(uri)
 // const { MongoClient } = require('mongodb');
 
 // let dbConnection;
-// let uri = 'mongodb+srv://HarborReads:MongoDB%40HR12@cluster0.nhckanx.mongodb.net/harborreads?retryWrites=true&w=majority';
+// let uri = 'example';
 
 // module.exports = {
 //     connectToDb: (cb) => {
