@@ -1,0 +1,52 @@
+/* Loadinglights.css */
+@keyframes moveRight1 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes moveRight2 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes moveRight3 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes shine {
+    0% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.4;
+    }
+  }
+  
+  .animate-loading-bar1 {
+    animation: moveRight1 1.5s infinite linear, shine 2s infinite linear;
+  }
+  
+  .animate-loading-bar2 {
+    animation: moveRight2 2s infinite linear, shine 3s infinite linear;
+  }
+  
+  .animate-loading-bar3 {
+    animation: moveRight3 3s infinite linear, shine 4s infinite linear;
+  }
+  

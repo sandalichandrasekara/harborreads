@@ -1,0 +1,18 @@
+.typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 1s steps(30, end) forwards;
+    animation-timing-function: ease-in-out; /* Add this line for smoother animation */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+/* App.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* Hide the scrollbar for the window */
+    height: 100%; /* Ensure body fills the entire viewport */
+
+}
+
+/* Box-sizing border-box for easier layout calculations */
+* {
+    box-sizing: border-box;
+}
+
+/* Container for the grid */
+.grid {
+    display: grid;
+    grid-template-columns: 20% 60% 20%; /* Three columns with the middle column taking up more space */
+    background-color: #fefeff; /* Teal 50 */
+}
+
+/* Content pane */
+.content-pane {
+    padding: 3%;
+    background-color: #f9f9f9 ; /* Off-white background color */
+    color: #333; /* Dark gray text color */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    max-height: 100vh; /* Limit the height of the content pane to the viewport height */
+}
+
+/* Left and right bars */
+.LeftBar, .RightBar {
+    padding: 16px;
+}
+
+.left-bar-container {
+ /* Add border radius */
+  overflow: hidden; /* Ensure content inside does not overflow */
+  max-height: 100vh; /* Limit the height of the content pane to the viewport height */
+  background-color: #bc6161; /* Teal 50 */
+  
+}
+
+.right-bar-container {
+    /* Add border radius */
+     overflow: hidden; /* Ensure content inside does not overflow */
+     max-height: 100vh; /* Limit the height of the content pane to the viewport height */
+     background-color: #fefeff; /* Teal 50 */
+     
+}
