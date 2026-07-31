@@ -1,0 +1,2 @@
+//These files contain utility functions or modules used across different parts of the application. 
+//They provide helper functions for tasks such as logging, input validation, error handling, etc. Utility files promote code reuse and help keep code organized and modular.
