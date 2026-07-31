@@ -1,9 +1,5 @@
 <div align="center">
 
-> **Group Project** &bull; Affiliated with the **University of Westminster** (Mar 2023 – Mar 2024)
-
-</div>
-
 # HarborReads: Personalized Book Recommendation System
 
 > **HarborReads** is a feature-rich, web-based platform designed to solve the user cold-start problem in book recommendation systems by combining conversational AI with tailored content-based filtering.
@@ -33,3 +29,9 @@ Beyond recommendations, HarborReads offers an all-in-one literary workspace equi
 * **Artificial Intelligence & NLP:** OpenAI GPT-3.5 (Fine-tuned), Natural Language Processing
 * **Recommendation Engine:** Content-Based Filtering Algorithms
 * **Application Type:** Web Application
+
+---
+
+> **Group Project** &bull; Affiliated with the **University of Westminster** (Mar 2023 – Mar 2024)
+
+</div>
