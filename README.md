@@ -2,7 +2,9 @@
 
 # HarborReads: Personalized Book Recommendation System
 
-> **HarborReads** is a feature-rich, web-based platform designed to solve the user cold-start problem in book recommendation systems by combining conversational AI with tailored content-based filtering.
+**HarborReads** is a feature-rich, web-based platform designed to solve the user cold-start problem in book recommendation systems by combining conversational AI with tailored content-based filtering.
+
+</div>
 
 ---
 
@@ -32,6 +34,4 @@ Beyond recommendations, HarborReads offers an all-in-one literary workspace equi
 
 ---
 
-> **Group Project** &bull; Affiliated with the **University of Westminster** (Mar 2023 – Mar 2024)
-
-</div>
+> **Group Project** Affiliated with the **University of Westminster** (Mar 2023 – Mar 2024)
